@@ -14,13 +14,14 @@ int main() {
     cout << "Enter full name: ";
     getline(cin, name);
 
-    cout << "Is PAU student? (1=true and 0 =false): ";
+    cout << "Loccation";
+    cout << "Are you a PAU student? (1=true and 0 =false): ";
     cin >> isPau;
 
-    cout << "Enter course (1-5): ";
+    cout << "Enter your course (1-5): ";
     cin >> course;
 
-    cout << "Enter location (1-5): ";
+    cout << "Enter your location (1-5): ";
     cin >> loc;
 
     if (course ==1) { courseName = "Photography"; days = 3; regFee = 10000; }
